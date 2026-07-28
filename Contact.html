@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub</title>
+</head>
+<body>
+    <header>
+        <h1>Student Hub</h1>
+        <h2>Your Complete University Guide</h2>
+        <nav>
+            <a href="Home.html">Home</a> |
+            <a href="Departments.html">Departments</a> |
+            <a href="Contact.html">Contact</a> |
+            <a href="About.html">About</a>
+        </nav>
+        <img src="img/Dummy-uni-logo.png" width="100"alt="Uni-logo">
+    </header>
+    <main>
+        <section>
+            <h3>Contact Us</h3>
+            <p>We'd love to hear from you! If you have any questions, suggestions, or feedback, feel free to contact us using the form below.</p>
+            <h3>Get in Touch</h3>
+              <p><Strong>📧 Email:</Strong> support@studenthub.com</p>
+              <p><Strong>📞 Phone:</Strong> +92-300-1234567</p>
+              <p><Strong>📍 Address:</Strong> StudentHub Campus, Lahore, Pakistan</p>
+            <h3>Send Us a Message</h3>
+                <form>
+                    <label for="name"><strong>Full Name:</strong></label><br>
+                     <input type="text" name="fname" id="name"placeholder="Enter your full name"><br>
+                     <br>
+                    <label for="email"><strong>Email:</strong></label><br>
+                     <input type="email" name="email" id="email"><br>
+                     <br>
+                    <label for="department"><strong>Department:</strong></label><br>
+                        <select name="Department" id="department">
+                            <option value="">Select a Department</option>
+                            <option value="Software Engineering">Software Engineering</option>
+                            <option value="Computer Science">Computer Science</option>
+                            <option value="Artificial Intelligence">Artificial Intelligence</option>
+                            <option value="Cyber Security">Cyber Security</option>
+                        </select>
+                        <br><br>
+                    <label for="Semseter"><strong>Semester:</strong></label><br>
+                        <select name="semseter" id="Semester">
+                            <option value="">Select Semseter</option>
+                            <option value="1st semseter">1st senseter</option>
+                            <option value="2nd semseter">2nd Semseter</option>
+                            <option value="3rd semseter">3rd semseter</option>
+                            <option value="4th semseter">4th semseter</option>
+                        </select>  
+                          <br><br>
+                    <label for="Gender"> <strong>Gender</strong></label><br>
+                        <input type="radio" name="gender" id="male">
+                           <label for="male">Male</label><br>
+                        <input type="radio" name="gender" id="female">
+                           <label for="female">Female</label><br>
+                           <br>
+                    <label for="Interests"><strong>Interests:</strong></label><br>
+                        <input type="checkbox" name="interest" id="prog">
+                           <label for="prog">Programming</label><br>
+                        <input type="checkbox" name="interest" id="ai"> 
+                            <label for="ai">Artificial Intelligence</label><br>
+                        <input type="checkbox" name="interest" id="cyber">
+                            <label for="cyber">Cyber Security</label><br>
+                        <input type="checkbox" name="interest" id="web">
+                            <label for="web">Web Development</label><br>
+                            <br>
+                    <label for="message"><strong>Message:</strong></label><br>
+                          <textarea name="message" id="message" cols="50" rows="5" placeholder="Write your message here..."></textarea><br>
+                        <input type="submit" value="Submit"> 
+                        <input type="reset" value="Reset">
+                </form>
+
+        </section>
+    </main>
+    <footer>
+        <P><strong>Email:</strong>info@studenthub.com <strong>Phone:</strong>+92-300-1234567</P>
+        <p>&copy; 2026 StudentHub. All rights reserved.
+        </p>
+    </footer>
+    
+</body>
+</html>
