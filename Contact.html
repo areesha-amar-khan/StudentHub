@@ -7,15 +7,12 @@
 </head>
 <body>
     <header>
-        <h1>Student Hub</h1>
-        <h2>Your Complete University Guide</h2>
         <nav>
             <a href="Home.html">Home</a> |
             <a href="Departments.html">Departments</a> |
             <a href="Contact.html">Contact</a> |
             <a href="About.html">About</a>
         </nav>
-        <img src="img/Dummy-uni-logo.png" width="100"alt="Uni-logo">
     </header>
     <main>
         <section>
@@ -27,6 +24,8 @@
               <p><Strong>📍 Address:</Strong> StudentHub Campus, Lahore, Pakistan</p>
             <h3>Send Us a Message</h3>
                 <form>
+                 <fieldset>
+                   <legend>Personal Information</legend>
                     <label for="name"><strong>Full Name:</strong></label><br>
                      <input type="text" name="fname" id="name"placeholder="Enter your full name"><br>
                      <br>
@@ -69,8 +68,9 @@
                             <br>
                     <label for="message"><strong>Message:</strong></label><br>
                           <textarea name="message" id="message" cols="50" rows="5" placeholder="Write your message here..."></textarea><br>
-                        <input type="submit" value="Submit"> 
+                        <button>Submit</button>
                         <input type="reset" value="Reset">
+                 </fieldset>
                 </form>
 
         </section>
