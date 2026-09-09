@@ -1,5 +1,5 @@
 :root {
-    --light-color: white;
+    --light-color: rgb(255, 255, 255);
     --dark-color: black;
     --space-xs: 0.5rem;
     --space-sm: 1rem;
